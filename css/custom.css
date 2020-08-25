@@ -1,0 +1,1207 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+/*** style used in header nav utility link **/
+.infoLink {font-weight: 400; font-color:#666;}
+
+
+/*** HOME PAGE ***/
+
+/*** overlay home page image ***/
+.HMoverlay:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #292929;
+  opacity: 0.3;
+  z-index: 2;
+}
+
+
+/** home page min image heading **/
+h1.home {
+  font-size: 46px;
+  line-height: 64px;
+  font-weight: 400;
+}
+
+/** brand home page min image heading **/
+h1.brandHome {
+
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 48px;
+    margin-bottom: 20px !important;
+
+}
+
+
+
+
+/** how to pages **/
+
+.mr16 { margin-right: 16px;}
+
+
+h1.howTo {
+  font-size: 30px;
+  line-height: 54px;
+  font-weight: 400;
+  text-transform: uppercase;
+	margin-top:40px;
+}
+
+@media all and (max-width: 990px) {
+  h1.howTo {
+    font-size: 30px;
+    line-height: 54px;
+	  font-weight: 400;
+	  text-transform: uppercase;
+  }
+}
+
+@media all and (max-width: 767px) {
+  h1.howTo  {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300; 
+	  text-transform: uppercase;
+	}
+}
+
+h2.howTo {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+margin-top:10px;
+	
+}
+
+@media all and (max-width: 990px) {
+  h2.howTo {
+    font-size: 20px;
+    line-height: 30px;
+	  font-weight: 400;
+	  text-transform: uppercase;
+  }
+}
+
+@media all and (max-width: 767px) {
+  h2.howTo  {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300; 
+	  text-transform: uppercase;
+	}
+}
+
+h1.general {
+  font-size: 40px;
+  line-height: 64px;
+  font-weight: 400;
+  text-transform: uppercase;
+	margin-top:40px;
+}
+
+@media all and (max-width: 990px) {
+  h1.general {
+    font-size: 40px;
+    line-height: 64px;
+	  font-weight: 400;
+	  text-transform: uppercase;
+  }
+}
+
+@media all and (max-width: 767px) {
+  h1.general  {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300; 
+	  text-transform: uppercase;
+	}
+}
+
+
+h1.designer {
+  font-size: 24px;
+  line-height: 54px;
+  font-weight: 400;
+  text-transform: uppercase;
+	margin-top:40px;
+}
+
+@media all and (max-width: 990px) {
+  h1.designer {
+    font-size: 24px;
+    line-height: 54px;
+	  font-weight: 400;
+	  text-transform: uppercase;
+  }
+}
+
+@media all and (max-width: 767px) {
+  h1.designer  {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300; 
+	  text-transform: uppercase;
+	}
+}
+
+
+/*** MENU LINKS ****/
+
+
+.menu li a.saleLabel {
+	
+font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #F50303;
+  opacity: 1;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  max-width: 100%;
+  white-space: normal;
+}
+.menu li a.saleLabel:hover {
+  opacity: 1 !important;
+  color: #C70505;
+}
+
+.menu li a.subscribeLabel {
+	
+font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #0ab73f;
+  opacity: 1;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  max-width: 100%;
+  white-space: normal;
+}
+.menu li a.subscrbieLabel:hover {
+  opacity: 1 !important;
+  color: #0ab73f;
+}
+
+
+
+
+
+
+.newLabel {
+   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /*background: #333347;*/
+  border-radius: 0;
+  /*padding: 6px 12px;*/
+  font-size: 10px;
+  color:#2dbaf0;
+  vertical-align: middle;
+}
+
+
+
+.redLabel {
+   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /*background: #333347;*/
+  border-radius: 0;
+  /*padding: 6px 12px;*/
+  font-size: 10px;
+  color:#fd0404;
+  vertical-align: middle;
+}
+
+
+
+.menuLiNarrow {
+  width: 100px !important;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+
+
+/*** how to menu width ***/
+.how-to-mega-menu > li {
+  width: 350px !important;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.how-mega-menu > ul {
+  width: 330px !important;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+
+/*** paddle accessories to menu width ***/
+.paddle-acc-mega-menu > li {
+  width: 190px !important;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.paddle-ac-mega-menu > ul {
+  width: 170px !important;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/*** contact page distributer countries ***/
+.countryDeets {
+text-transform: uppercase;
+	
+}
+
+
+/**** button colors ***/
+.btn-clr {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0 26px;
+  height: 40px;
+  min-width: 150px;
+  line-height: 36px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0;
+  text-align: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  margin-right: 8px;
+  margin-bottom: 24px;
+}
+
+
+.btn-dealer {
+  background: #19d76a;
+  border: 2px solid #19d76a;
+  color: #fff;
+    
+}
+
+
+
+
+.btn-login {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 0px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 0;
+  color: #333347;
+  text-align: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  margin-right: 8px;
+  margin-bottom: 24px;
+}
+
+
+.btn-login:hover {
+  text-decoration: underline;
+	color:#fff;
+}
+
+.product-quick-view {
+  max-width: 100px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+
+/** LINKS **/
+
+open
+/* used to underline links where necessary */
+
+a.underlineLink:hover{
+  text-decoration:underline;
+}
+
+/*** footer links ***/
+.footerLink {
+  width: 100%;
+  line-height: 20px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+	
+}
+.footerLink.inline-block {
+  width: auto;
+}
+.footerLink li a {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #292929;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  max-width: 100%;
+  white-space: normal;
+}
+.footerLink li a:hover{
+  opacity: 1 !important;
+}
+
+
+.contactLink {
+  width: 100%;
+  line-height: 20px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+.contactLink.inline-block {
+  width: auto;
+}
+a.contactLink {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;	
+  font-size: 13px;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  max-width: 100%;
+  white-space: normal;
+
+}
+a.contactLink:hover{
+  text-decoration:underline;
+}
+
+a.navUtilityLink {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  max-width: 100%;
+  white-space: normal;
+	letter-spacing: 0.0625em;
+	color:#666;
+
+}
+a.navUtilityLink:hover{
+  text-decoration:underline;
+	color:#666;
+}
+
+.regularLink {
+  width: 100%;
+  line-height: 20px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+.regularLink.inline-block {
+  width: auto;
+}
+a.regularLink {
+font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  max-width: 100%;
+  white-space: normal;
+	text-decoration:underline;
+
+}
+a.regularLink:hover{
+  text-decoration:underline;
+}
+
+.regularText {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.footnoteText {
+  font-size: 16px;
+	font-weight:bold;
+}
+
+.smallText {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.boldText {
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.redText  {
+	font-color: #e90c0c;
+	
+}
+
+.brandLink {
+  width: 100%;
+  line-height: 24px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+.brandLink.inline-block {
+  width: auto;
+}
+.brandLink a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #292929;
+  opacity: 0.3;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  max-width: 100%;
+  white-space: normal;
+
+}
+.brandLink a:hover{
+  opacity: 1 !important;
+	text-decoration:underline;
+}
+
+
+.labelLink {
+  width: 100%;
+  line-height: 24px;
+  font-size: 13px;
+
+}
+.labelLink.inline-block {
+  width: auto;
+}
+a.labelLink {
+  font-size: 13px;
+  font-weight: bold;
+text-decoration:underline;
+ 
+
+}
+a.labelLink:hover{
+  
+	text-decoration:underline;
+}
+
+
+/** background colors  **/
+
+
+.bg-ltblu {
+  background: #a0d3ec;
+}
+
+/** opn sans text link  **/
+.openTextLink {
+  width: 100%;
+  line-height: 24px;
+  font-size: 13px;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.openTextLink.inline-block {
+  width: auto;
+}
+a.openTextLink {
+  font-size: 13px;
+  font-weight:bold;
+
+ 
+
+}
+a.openTextLink:hover{
+  	
+	text-decoration:underline;
+}
+
+/** media page div height **/
+
+.media-brands{
+	max-height: 900px;
+}
+
+.mediaText {
+  width: 100%;
+  line-height: 28px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+ text-transform: uppercase;
+	
+}
+
+a.mediaLink {
+  width: 100%;
+  line-height: 20px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  max-width: 100%;
+  white-space: normal;
+}
+a.mediaLink:hover{
+  	text-decoration:underline;
+	opacity: 1 !important;
+}
+
+a.mediaLogoLink {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+a.mediaLogoLink:hover{
+  	padding-left: 12px;
+  padding-right: 12px;
+}
+
+.mediaHeading {
+	
+	font-size:15px;
+	
+}
+
+/** PORTAL LINKS **/
+
+
+a.portalLink:link {
+  font-weight: 400;
+  color: #333347;  
+
+}
+a.portalLink:visited, a.portalLink:focus, a.portalLink:active, a.portalLink:hover{
+  opacity: 0.5 !important;
+
+}
+
+
+@media all and (max-width: 767px) {
+  brandSection {
+    padding: 80px 0;
+  }
+}
+
+
+
+
+
+/**** main menu brand/heading links ***/
+.menu li a.titleHeading {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  opacity: 1;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  max-width: 100%;
+  white-space: normal;
+}
+.menu li a.titleHeading:hover {
+  opacity: 1 !important;
+font-weight: 900;
+}
+
+/* used for technology page links and volume calculator */
+.menu  li a.smllTitle {
+  letter-spacing: 1px;
+  color: #fff;
+  opacity: 1 !important;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.menu li a.smllTitle:hover {
+  opacity: 1 !important;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.menu > li > ul li a.noleftPad {
+ padding: 6px 0px 0px 5px;
+	
+}
+
+/* top banner links */
+.moduleTop {
+  display: inline-block;
+  padding: 0 10px;
+}
+.moduleTop.left {
+  float: left;
+}
+
+/* brand page */
+.productName {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 15px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+.productPricing{
+	width: 100%;
+  font-weight: 300;
+  line-height: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+	
+}
+
+.productCategory {
+  width: 100%;
+  font-weight: 300;
+  opacity: 0.4;
+  line-height: 15px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+}
+
+/* product page */
+
+.titleSpacing {
+  height: 100px;
+}
+
+
+.productDescriptions {
+  opacity: 1;
+  color: #333347;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+
+
+}
+.productDescripitonHR {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333347;
+  overflow: visible;
+  width: 100%;
+}
+
+.colorway-thumb {
+  max-width: 80px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+ padding:1px;
+   border:1px solid #021a40;
+}
+
+.colorway-thumb:hover {
+  transform: scale3d(0.95, 0.95, 0.95);
+  -webkit-transform: scale3d(0.95, 0.95, 0.95);
+	border:1px solid #021a40;
+}
+.colorwayBox
+{
+ 
+padding-right:5px; 
+display: inline-block;
+ 	
+}
+ 	
+
+
+.colorway-thumb-on {
+  max-width: 80px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+ padding:1px;
+   border:2px solid #021a40;
+}
+
+/* quick view styles */
+
+.quickview-thumb {
+  max-width: 120px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+ padding:3px;
+   border:1px solid #021a40;
+}
+
+.quickview-thumb:hover {
+  transform: scale3d(0.95, 0.95, 0.95);
+  -webkit-transform: scale3d(0.95, 0.95, 0.95);
+	border:1px solid #021a40;
+}
+.quickviewBox
+{
+ 
+padding-right:5px; 
+display: inline-block;
+ 	
+}
+ 	
+
+.quickviewItemName {
+	
+	line-height: normal;
+}
+
+.quickview-thumb-on {
+  max-width: 120px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+ padding:3px;
+   border:2px solid #021a40;
+}
+
+.quickViewModels {
+	
+font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 13px;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 700;
+color:#000000;
+margin-bottom: 12px;
+padding: 0;
+	
+}
+
+.quickViewTable {
+	
+font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 11px;
+line-height: 14px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 500;
+color:#000000;
+padding: 0;
+	
+}
+
+.length-thumb {
+  max-width: 40px;
+  /*transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;*/
+  opacity: 1;
+  /*transform: scale3d(1, 1, 1);*/
+ padding:5px;
+   border:1px solid #021a40;
+	text-align:center;
+	color: #000000;
+	
+}
+
+.length-thumb:hover {
+  /*transform: scale3d(0.95, 0.95, 0.95);
+  -webkit-transform: scale3d(0.95, 0.95, 0.95);*/
+	border:1px solid #000000;
+	opacity: 0.6;
+}
+.lengthBox
+{
+padding-right:5px; 
+display: inline-block;
+ 	
+}
+
+.length-thumb-on {
+  max-width: 40px;
+  /*transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;*/
+  opacity: 1;
+ /* transform: scale3d(1, 1, 1);*/
+ padding:5px;
+   border:2px solid #021a40;
+color: #000000;
+	font-weight:bold;
+	
+}
+
+
+
+
+
+
+.specTableScroll{
+	overflow-x:auto;
+}
+
+/* product page nav */
+.nav-utility-prod {
+  height: 45px;
+  line-height: 43px;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+color: #333347;
+}
+.nav-utility-prod i {
+  position: relative;
+  top: 1px;
+	color: #333347;
+}
+
+/** TM / Dealer Admin Side bar **/
+.list-space {
+
+	margin-bottom: 0px;
+	
+}
+
+
+
+.link-list-on {
+  text-transform: uppercase;
+  border-bottom: solid 1px #333347;
+border-top: solid 1px #333347;
+}
+
+
+
+
+a.list-link-deets:hover {
+  text-decoration: underline;
+
+}
+
+/** tm /dealer portal headings scholaship page headings **/
+
+.pl16 {padding-left: 16px;}
+.pr16 {padding-right: 16px;}
+
+.heading-title hr {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  border-top: 1px solid #ccc;
+}
+
+.heading-title {
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #292929;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+	line-height: 14px;
+    text-transform: uppercase;
+	
+	
+}
+
+
+.lrg-heading-title hr {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  border-top: 1px solid #ccc;
+}
+
+.lrg-heading-title {
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #292929;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+	line-height: 14px;
+    text-transform: uppercase;
+	
+	
+}
+
+.lrg-head-no-pad {
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #292929;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+	line-height: 14px;
+    text-transform: uppercase;
+	
+	
+}
+
+/** for EG: spacing used for text at the top of DIT form **/
+.portalTopText {
+	padding-left: 16px;
+}
+
+
+
+/* TM quick view type, clearance, show hid trade links */
+.TMquickLinks {
+
+  letter-spacing: 2px;	
+  border: 2px solid #292929;
+  text-align: center;
+  
+}
+
+a.TMquickLink {
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #292929;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  max-width: 100%;
+  white-space: normal;
+}
+a.TMquickLink:hover{
+  opacity: 1 !important;
+}
+
+
+
+/* board volume calculator */
+
+.volBudget {
+  font-weight: 400;
+  opacity: 0.7;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+}
+
+
+
+
+/* -- spinner css for brian quick view --*/
+.cssload-fond{
+	position:relative;
+	margin: auto;
+}
+
+.cssload-container-general
+{
+	animation:cssload-animball_two 1.15s infinite;
+		-o-animation:cssload-animball_two 1.15s infinite;
+		-ms-animation:cssload-animball_two 1.15s infinite;
+		-webkit-animation:cssload-animball_two 1.15s infinite;
+		-moz-animation:cssload-animball_two 1.15s infinite;
+	width:43px; height:43px;
+}
+.cssload-internal
+{
+	width:43px; height:43px; position:absolute;
+}
+.cssload-ballcolor
+{
+	width: 19px;
+	height: 19px;
+	border-radius: 50%;
+}
+.cssload-ball_1, .cssload-ball_2, .cssload-ball_3, .cssload-ball_4
+{
+	position: absolute;
+	animation:cssload-animball_one 1.15s infinite ease;
+		-o-animation:cssload-animball_one 1.15s infinite ease;
+		-ms-animation:cssload-animball_one 1.15s infinite ease;
+		-webkit-animation:cssload-animball_one 1.15s infinite ease;
+		-moz-animation:cssload-animball_one 1.15s infinite ease;
+}
+.cssload-ball_1
+{
+	background-color:rgb(203,32,37);
+	top:0; left:0;
+}
+.cssload-ball_2
+{
+	background-color:rgb(248,179,52);
+	top:0; left:23px;
+}
+.cssload-ball_3
+{
+	background-color:rgb(0,160,150);
+	top:23px; left:0;
+}
+.cssload-ball_4
+{
+	background-color:rgb(151,191,13);
+	top:23px; left:23px;
+}
+
+/* -- spinner css --*/
+.cssload-fond{
+	position:relative;
+	margin: auto;
+}
+
+.cssload-container-general
+{
+	animation:cssload-animball_two 1.15s infinite;
+		-o-animation:cssload-animball_two 1.15s infinite;
+		-ms-animation:cssload-animball_two 1.15s infinite;
+		-webkit-animation:cssload-animball_two 1.15s infinite;
+		-moz-animation:cssload-animball_two 1.15s infinite;
+	width:43px; height:43px;
+}
+.cssload-internal
+{
+	width:43px; height:43px; position:absolute;
+}
+.cssload-ballcolor
+{
+	width: 19px;
+	height: 19px;
+	border-radius: 50%;
+}
+.cssload-ball_1, .cssload-ball_2, .cssload-ball_3, .cssload-ball_4
+{
+	position: absolute;
+	animation:cssload-animball_one 1.15s infinite ease;
+		-o-animation:cssload-animball_one 1.15s infinite ease;
+		-ms-animation:cssload-animball_one 1.15s infinite ease;
+		-webkit-animation:cssload-animball_one 1.15s infinite ease;
+		-moz-animation:cssload-animball_one 1.15s infinite ease;
+}
+.cssload-ball_1
+{
+	background-color:rgb(203,32,37);
+	top:0; left:0;
+}
+.cssload-ball_2
+{
+	background-color:rgb(248,179,52);
+	top:0; left:23px;
+}
+.cssload-ball_3
+{
+	background-color:rgb(0,160,150);
+	top:23px; left:0;
+}
+.cssload-ball_4
+{
+	background-color:rgb(151,191,13);
+	top:23px; left:23px;
+}
+
+
+
+@keyframes cssload-animball_one
+{
+	0%{ position: absolute;}
+	50%{top:12px; left:12px; position: absolute;opacity:0.5;}
+	100%{ position: absolute;}
+}
+
+@-o-keyframes cssload-animball_one
+{
+	0%{ position: absolute;}
+	50%{top:12px; left:12px; position: absolute;opacity:0.5;}
+	100%{ position: absolute;}
+}
+
+@-ms-keyframes cssload-animball_one
+{
+	0%{ position: absolute;}
+	50%{top:12px; left:12px; position: absolute;opacity:0.5;}
+	100%{ position: absolute;}
+}
+
+@-webkit-keyframes cssload-animball_one
+{
+	0%{ position: absolute;}
+	50%{top:12px; left:12px; position: absolute;opacity:0.5;}
+	100%{ position: absolute;}
+}
+
+@-moz-keyframes cssload-animball_one
+{
+	0%{ position: absolute;}
+	50%{top:12px; left:12px; position: absolute;opacity:0.5;}
+	100%{ position: absolute;}
+}
+
+@keyframes cssload-animball_two
+{
+	0%{transform:rotate(0deg) scale(1);}
+	50%{transform:rotate(360deg) scale(1.3);}
+	100%{transform:rotate(720deg) scale(1);}
+}
+
+@-o-keyframes cssload-animball_two
+{
+	0%{-o-transform:rotate(0deg) scale(1);}
+	50%{-o-transform:rotate(360deg) scale(1.3);}
+	100%{-o-transform:rotate(720deg) scale(1);}
+}
+
+@-ms-keyframes cssload-animball_two
+{
+	0%{-ms-transform:rotate(0deg) scale(1);}
+	50%{-ms-transform:rotate(360deg) scale(1.3);}
+	100%{-ms-transform:rotate(720deg) scale(1);}
+}
+
+@-webkit-keyframes cssload-animball_two
+{
+	0%{-webkit-transform:rotate(0deg) scale(1);}
+	50%{-webkit-transform:rotate(360deg) scale(1.3);}
+	100%{-webkit-transform:rotate(720deg) scale(1);}
+}
+
+@-moz-keyframes cssload-animball_two
+{
+	0%{-moz-transform:rotate(0deg) scale(1);}
+	50%{-moz-transform:rotate(360deg) scale(1.3);}
+	100%{-moz-transform:rotate(720deg) scale(1);}
+}
+
+
+/* -- end spinner css for brian quick view --*/
