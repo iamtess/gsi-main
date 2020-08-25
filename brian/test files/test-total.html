@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+$( document ).ready(function() {
+$('#totalate').click(function() {
+  
+  var rowCounter = 1;
+  var grandTotal = 0;
+  
+  $('tr.sizes').each(function() {
+
+				var $this = $(this);
+
+				var qty = $this.find('input[id$="qty' + rowCounter + '"]').val() || 0;
+        var price = $this.find('input[id$="price' + rowCounter + '"]').val() || 0;
+        var total = parseInt(qty, 10) * parseFloat(price);
+
+        grandTotal+= total;
+
+        $("#" + 'total' + rowCounter).val(total);
+
+        //alert(rowCounter + ': qty: ' + qty + ', price: ' + price + ', total: ' + total);
+
+        rowCounter++;
+
+  });
+  
+  $('#grandtotal').html('Total $' + grandTotal);
+  
+});
+});
+</script>
+
+
+</head>
+
+<body>
+TEST TOTALATER
+<table >
+<tr>
+  <td></td>
+  <td>Quantity</td>
+  <td>Rate</td>
+  <td>Sub Total</td>
+</tr>
+<tr class="sizes">
+  <td>Row 1</td>
+  <td><input type="number" id="qty1" name="qty1"></td>
+  <td><input type="number" id="price1" name="price1" value="100"></td>
+  <td><input type="number" id="total1" name="total1" disabled></td>
+</tr>
+<tr class="sizes">
+  <td>Row 2</td>
+  <td><input type="number" id="qty2" name="qty2"></td>
+  <td><input type="number" id="price2" name="price2" value="100"></td>
+  <td><input type="number" id="total2" name="total2" disabled></td>
+</tr>
+<tr class="sizes">
+  <td>Row 3</td>
+  <td><input type="number" id="qty3" name="qty3"></td>
+  <td><input type="number" id="price3" name="price3" value="100"></td>
+  <td><input type="number" id="total3" name="total3" disabled></td>
+</tr>
+</table>
+<br/>
+<button id="totalate">Totalater</button> 
+<div id="grandtotal">Total $0.00
+</div>
+
+
+
+
+
+</body>
+</html>

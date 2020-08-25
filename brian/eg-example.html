@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Proof of Concept</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$('#salesrep_select').prop('disabled', true);
+	$('#location_select').prop('disabled', true);
+	$('#customer_select').prop('disabled', true);
+	
+	$.ajax({
+		type:'POST',
+		url:'eg-getsalesreps.php',
+		success:function(html){
+			$('#salesrep_select').html(html);
+			$('#salesrep_select').prop('disabled', false);
+		}
+	}); 
+		
+    $('#salesrep_select').on('change',function(){
+	var salesrepID = $(this).val();
+	if(salesrepID){
+	
+		$.ajax({
+			type:'POST',
+			url:'eg-getlocations.php',
+			data:'salesrep='+salesrepID,
+			success:function(html){
+				$('#location_select').html(html);
+				$('#location_select').prop('disabled', false);
+			}
+		}); 
+		
+		$.ajax({
+			type:'POST',
+			url:'eg-getcustomers.php',
+			data:'salesrep='+salesrepID,
+			success:function(html){
+				$('#customer_select').html(html);
+				$('#customer_select').prop('disabled', false);
+			}
+		}); 
+		
+	}
+	
+	});
+});
+</script>
+</head>
+<body>
+<form action="brian-select-brand.php" name="orderForm" id="orderForm"  method="post">
+<select name="salesrep_select" id="salesrep_select">
+    <option value="">Sales Rep</option>
+    <option value="23">Bridget Reedman</option>
+	<option value="13">Matthew Harbour</option>
+	<option value="20">Stephen Pauls</option>
+</select>
+<br/>
+<select name="location_select" id="location_select">
+    <option value="">Warehouse</option>
+</select>
+<br/>
+<select name="customer_select" id="customer_select">
+    <option value="">Customer</option>
+</select>
+</form>
+</body>
+</html>
