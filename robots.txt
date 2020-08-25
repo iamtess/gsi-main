@@ -1,0 +1,44 @@
+
+# robots.txt file for https://www.surfindustries.com/
+# added by Global Surf Industries 26-06-17
+
+# disallow all 
+User-agent: *
+Disallow: /
+#TK commented out crawl delay as per request form MS  22/5/18
+#Crawl-delay: 600
+
+# but allow only important bots
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Mediapartners-Google
+User-agent: msnbot
+User-agent: msnbot-media
+User-agent: Slurp
+User-agent: Yahoo-Blogs
+User-agent: Yahoo-MMCrawler
+
+Disallow: /admin/
+Disallow: /brian/
+Disallow: /dealer-admin/
+Disallow: /distributor-portal/
+Disallow: /doug/
+Disallow: /newsletter/
+Disallow: /shop/au/*
+Disallow: /shop/nz/*
+Disallow: /shop/us/*
+Disallow: /TM-portal
+
+Allow: /
+
+Sitemap: https://www.surfindustries.com/sitemap.xml
+Sitemap: http://shop.surfindustries.com/page-sitemap.xml
+Sitemap: https://shop.surfindustries.com/au/product-sitemap.xml
+Sitemap: https://shop.surfindustries.com/au/page-sitemap.xml
+Sitemap: https://shop.surfindustries.com/us/product-sitemap.xml
+Sitemap: https://shop.surfindustries.com/us/page-sitemap.xml
+Sitemap: https://shop.surfindustries.com/nz/product-sitemap.xml
+Sitemap: https://shop.surfindustries.com/nz/page-sitemap.xml
+
+
+# end of file
